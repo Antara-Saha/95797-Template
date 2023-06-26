@@ -1,0 +1,142 @@
+table: bike_data
+    column: tripduration
+    column: starttime
+    column: stoptime
+    column: start station id
+    column: start station name
+    column: start station latitude
+    column: start station longitude
+    column: end station id
+    column: end station name
+    column: end station latitude
+    column: end station longitude
+    column: bikeid
+    column: usertype
+    column: birth year
+    column: gender
+    column: ride_id
+    column: rideable_type
+    column: started_at
+    column: ended_at
+    column: start_station_name
+    column: start_station_id
+    column: end_station_name
+    column: end_station_id
+    column: start_lat
+    column: start_lng
+    column: end_lat
+    column: end_lng
+    column: member_casual
+    column: filename
+table: central_park_weather
+    column: station
+    column: name
+    column: date
+    column: awnd
+    column: prcp
+    column: snow
+    column: snwd
+    column: tmax
+    column: tmin
+    column: filename
+table: daily_citi_bike_trip_counts_and_weather
+    column: date
+    column: trips
+    column: precipitation
+    column: snow_depth
+    column: snowfall
+    column: max_temperature
+    column: min_temperature
+    column: average_wind_speed
+    column: dow
+    column: year
+    column: month
+    column: holiday
+    column: stations_in_service
+    column: weekday
+    column: weekday_non_holiday
+    column: filename
+table: fhv_bases
+    column: column0
+    column: column1
+    column: column2
+    column: column3
+    column: filename
+table: fhv_tripdata
+    column: dispatching_base_num
+    column: pickup_datetime
+    column: dropoff_datetime
+    column: pulocationid
+    column: dolocationid
+    column: sr_flag
+    column: affiliated_base_number
+    column: filename
+table: fhvhv_tripdata
+    column: hvfhs_license_num
+    column: dispatching_base_num
+    column: originating_base_num
+    column: request_datetime
+    column: on_scene_datetime
+    column: pickup_datetime
+    column: dropoff_datetime
+    column: pulocationid
+    column: dolocationid
+    column: trip_miles
+    column: trip_time
+    column: base_passenger_fare
+    column: tolls
+    column: bcf
+    column: sales_tax
+    column: congestion_surcharge
+    column: airport_fee
+    column: tips
+    column: driver_pay
+    column: shared_request_flag
+    column: shared_match_flag
+    column: access_a_ride_flag
+    column: wav_request_flag
+    column: wav_match_flag
+    column: filename
+table: green_tripdata
+    column: vendorid
+    column: lpep_pickup_datetime
+    column: lpep_dropoff_datetime
+    column: store_and_fwd_flag
+    column: ratecodeid
+    column: pulocationid
+    column: dolocationid
+    column: passenger_count
+    column: trip_distance
+    column: fare_amount
+    column: extra
+    column: mta_tax
+    column: tip_amount
+    column: tolls_amount
+    column: ehail_fee
+    column: improvement_surcharge
+    column: total_amount
+    column: payment_type
+    column: trip_type
+    column: congestion_surcharge
+    column: filename
+table: yellow_tripdata
+    column: vendorid
+    column: tpep_pickup_datetime
+    column: tpep_dropoff_datetime
+    column: passenger_count
+    column: trip_distance
+    column: ratecodeid
+    column: store_and_fwd_flag
+    column: pulocationid
+    column: dolocationid
+    column: payment_type
+    column: fare_amount
+    column: extra
+    column: mta_tax
+    column: tip_amount
+    column: tolls_amount
+    column: improvement_surcharge
+    column: total_amount
+    column: congestion_surcharge
+    column: airport_fee
+    column: filename
