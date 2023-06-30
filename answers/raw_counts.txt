@@ -1,0 +1,9 @@
+Table Name : Row Count
+bike_data  :  [47168308]
+central_park_weather  :  [2984]
+daily_citi_bike_trip_counts_and_weather  :  [883]
+fhv_bases  :  [1097]
+fhv_tripdata  :  [29750730]
+fhvhv_tripdata  :  [317906523]
+green_tripdata  :  [2802931]
+yellow_tripdata  :  [55553400]

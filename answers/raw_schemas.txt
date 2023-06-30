@@ -1,0 +1,161 @@
+Tables Listed in DuckDB Database are as follows:
+bike_data
+central_park_weather
+daily_citi_bike_trip_counts_and_weather
+fhv_bases
+fhv_tripdata
+fhvhv_tripdata
+green_tripdata
+yellow_tripdata 
+
+Schema Details for table: bike_data
+('tripduration', 'VARCHAR', 'YES', None, None, None)
+('starttime', 'VARCHAR', 'YES', None, None, None)
+('stoptime', 'VARCHAR', 'YES', None, None, None)
+('start station id', 'VARCHAR', 'YES', None, None, None)
+('start station name', 'VARCHAR', 'YES', None, None, None)
+('start station latitude', 'VARCHAR', 'YES', None, None, None)
+('start station longitude', 'VARCHAR', 'YES', None, None, None)
+('end station id', 'VARCHAR', 'YES', None, None, None)
+('end station name', 'VARCHAR', 'YES', None, None, None)
+('end station latitude', 'VARCHAR', 'YES', None, None, None)
+('end station longitude', 'VARCHAR', 'YES', None, None, None)
+('bikeid', 'VARCHAR', 'YES', None, None, None)
+('usertype', 'VARCHAR', 'YES', None, None, None)
+('birth year', 'VARCHAR', 'YES', None, None, None)
+('gender', 'VARCHAR', 'YES', None, None, None)
+('ride_id', 'VARCHAR', 'YES', None, None, None)
+('rideable_type', 'VARCHAR', 'YES', None, None, None)
+('started_at', 'VARCHAR', 'YES', None, None, None)
+('ended_at', 'VARCHAR', 'YES', None, None, None)
+('start_station_name', 'VARCHAR', 'YES', None, None, None)
+('start_station_id', 'VARCHAR', 'YES', None, None, None)
+('end_station_name', 'VARCHAR', 'YES', None, None, None)
+('end_station_id', 'VARCHAR', 'YES', None, None, None)
+('start_lat', 'VARCHAR', 'YES', None, None, None)
+('start_lng', 'VARCHAR', 'YES', None, None, None)
+('end_lat', 'VARCHAR', 'YES', None, None, None)
+('end_lng', 'VARCHAR', 'YES', None, None, None)
+('member_casual', 'VARCHAR', 'YES', None, None, None)
+('filename', 'VARCHAR', 'YES', None, None, None)
+
+
+Schema Details for table: central_park_weather
+('STATION', 'VARCHAR', 'YES', None, None, None)
+('NAME', 'VARCHAR', 'YES', None, None, None)
+('DATE', 'VARCHAR', 'YES', None, None, None)
+('AWND', 'DOUBLE', 'YES', None, None, None)
+('PRCP', 'DOUBLE', 'YES', None, None, None)
+('SNOW', 'DOUBLE', 'YES', None, None, None)
+('SNWD', 'DOUBLE', 'YES', None, None, None)
+('TMAX', 'BIGINT', 'YES', None, None, None)
+('TMIN', 'BIGINT', 'YES', None, None, None)
+
+
+Schema Details for table: daily_citi_bike_trip_counts_and_weather
+('date', 'VARCHAR', 'YES', None, None, None)
+('trips', 'BIGINT', 'YES', None, None, None)
+('precipitation', 'DOUBLE', 'YES', None, None, None)
+('snowfall', 'DOUBLE', 'YES', None, None, None)
+('max_temperature', 'DOUBLE', 'YES', None, None, None)
+('min_temperature', 'DOUBLE', 'YES', None, None, None)
+('average_wind_speed', 'DOUBLE', 'YES', None, None, None)
+('dow', 'BIGINT', 'YES', None, None, None)
+('year', 'BIGINT', 'YES', None, None, None)
+('month', 'BIGINT', 'YES', None, None, None)
+('holiday', 'BOOLEAN', 'YES', None, None, None)
+('stations_in_service', 'DOUBLE', 'YES', None, None, None)
+('weekday', 'BOOLEAN', 'YES', None, None, None)
+('weekday_non_holiday', 'BOOLEAN', 'YES', None, None, None)
+('snow_depth', 'DOUBLE', 'YES', None, None, None)
+
+
+Schema Details for table: fhv_bases
+('base_number', 'VARCHAR', 'YES', None, None, None)
+('base_name', 'VARCHAR', 'YES', None, None, None)
+('dba', 'VARCHAR', 'YES', None, None, None)
+('dba_category', 'VARCHAR', 'YES', None, None, None)
+
+
+Schema Details for table: fhv_tripdata
+('dispatching_base_num', 'VARCHAR', 'YES', None, None, None)
+('pickup_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('dropOff_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('PUlocationID', 'DOUBLE', 'YES', None, None, None)
+('DOlocationID', 'DOUBLE', 'YES', None, None, None)
+('SR_Flag', 'INTEGER', 'YES', None, None, None)
+('Affiliated_base_number', 'VARCHAR', 'YES', None, None, None)
+
+
+Schema Details for table: fhvhv_tripdata
+('hvfhs_license_num', 'VARCHAR', 'YES', None, None, None)
+('dispatching_base_num', 'VARCHAR', 'YES', None, None, None)
+('originating_base_num', 'VARCHAR', 'YES', None, None, None)
+('request_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('on_scene_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('pickup_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('dropoff_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('PULocationID', 'BIGINT', 'YES', None, None, None)
+('trip_miles', 'DOUBLE', 'YES', None, None, None)
+('trip_time', 'BIGINT', 'YES', None, None, None)
+('base_passenger_fare', 'DOUBLE', 'YES', None, None, None)
+('tolls', 'DOUBLE', 'YES', None, None, None)
+('bcf', 'DOUBLE', 'YES', None, None, None)
+('sales_tax', 'DOUBLE', 'YES', None, None, None)
+('congestion_surcharge', 'DOUBLE', 'YES', None, None, None)
+('airport_fee', 'DOUBLE', 'YES', None, None, None)
+('tips', 'DOUBLE', 'YES', None, None, None)
+('driver_pay', 'DOUBLE', 'YES', None, None, None)
+('shared_request_flag', 'VARCHAR', 'YES', None, None, None)
+('shared_match_flag', 'VARCHAR', 'YES', None, None, None)
+('access_a_ride_flag', 'VARCHAR', 'YES', None, None, None)
+('wav_request_flag', 'VARCHAR', 'YES', None, None, None)
+('wav_match_flag', 'VARCHAR', 'YES', None, None, None)
+('DOLocationID', 'BIGINT', 'YES', None, None, None)
+
+
+Schema Details for table: green_tripdata
+('VendorID', 'BIGINT', 'YES', None, None, None)
+('lpep_pickup_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('lpep_dropoff_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('store_and_fwd_flag', 'VARCHAR', 'YES', None, None, None)
+('RatecodeID', 'DOUBLE', 'YES', None, None, None)
+('PULocationID', 'BIGINT', 'YES', None, None, None)
+('DOLocationID', 'BIGINT', 'YES', None, None, None)
+('passenger_count', 'DOUBLE', 'YES', None, None, None)
+('trip_distance', 'DOUBLE', 'YES', None, None, None)
+('fare_amount', 'DOUBLE', 'YES', None, None, None)
+('extra', 'DOUBLE', 'YES', None, None, None)
+('mta_tax', 'DOUBLE', 'YES', None, None, None)
+('tip_amount', 'DOUBLE', 'YES', None, None, None)
+('tolls_amount', 'DOUBLE', 'YES', None, None, None)
+('ehail_fee', 'INTEGER', 'YES', None, None, None)
+('improvement_surcharge', 'DOUBLE', 'YES', None, None, None)
+('total_amount', 'DOUBLE', 'YES', None, None, None)
+('payment_type', 'DOUBLE', 'YES', None, None, None)
+('trip_type', 'DOUBLE', 'YES', None, None, None)
+('congestion_surcharge', 'DOUBLE', 'YES', None, None, None)
+
+
+Schema Details for table: yellow_tripdata
+('VendorID', 'BIGINT', 'YES', None, None, None)
+('tpep_pickup_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('tpep_dropoff_datetime', 'TIMESTAMP', 'YES', None, None, None)
+('passenger_count', 'DOUBLE', 'YES', None, None, None)
+('trip_distance', 'DOUBLE', 'YES', None, None, None)
+('RatecodeID', 'DOUBLE', 'YES', None, None, None)
+('store_and_fwd_flag', 'VARCHAR', 'YES', None, None, None)
+('PULocationID', 'BIGINT', 'YES', None, None, None)
+('DOLocationID', 'BIGINT', 'YES', None, None, None)
+('payment_type', 'BIGINT', 'YES', None, None, None)
+('fare_amount', 'DOUBLE', 'YES', None, None, None)
+('extra', 'DOUBLE', 'YES', None, None, None)
+('mta_tax', 'DOUBLE', 'YES', None, None, None)
+('tip_amount', 'DOUBLE', 'YES', None, None, None)
+('tolls_amount', 'DOUBLE', 'YES', None, None, None)
+('improvement_surcharge', 'DOUBLE', 'YES', None, None, None)
+('total_amount', 'DOUBLE', 'YES', None, None, None)
+('congestion_surcharge', 'DOUBLE', 'YES', None, None, None)
+('airport_fee', 'INTEGER', 'YES', None, None, None)
+
+
